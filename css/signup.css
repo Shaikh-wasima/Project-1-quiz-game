@@ -245,7 +245,7 @@ form .btn input[type="submit"]{
   
 }
 
-@media (max-width: 350px) {
+@media (max-width: 300px) {
   .wrapper .title{
    
     font-size: 20px;
