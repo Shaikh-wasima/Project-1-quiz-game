@@ -22,11 +22,9 @@ const img = document.createElement("img");
 img.src = item.imageUrl;
 
 // Add different classes to even and odd images
-if (index % 2 === 0) {
+
 img.classList.add("img-fluid", "mx-auto", "d-block");
-} else {
-img.classList.add("img-fluid", "mx-auto", "d-block");
-}
+
 
 card.appendChild(img);
 
