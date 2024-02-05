@@ -150,7 +150,9 @@ function login() {
 
       // Redirect to the quiz page or any other desired page
       
-      window.open('quiz.html');
+      setTimeout(() => {
+              window.location.href = 'quiz.html';
+            }, 10);
     } else {
       alert('Invalid username or password.');
     }
