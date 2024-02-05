@@ -16,16 +16,16 @@ const container = document.querySelector(".container-grid");
 
 itemList.forEach((item, index) => {
 const card = document.createElement("div");
-card.classList.add("card", "custom-class", "col-auto" , "col-centered");
+card.classList.add("card", "custom-class", "col-auto" , "col-centered" , "animated" ,  "wow" , "jackInTheBox" , "slow");
 
 const img = document.createElement("img");
 img.src = item.imageUrl;
 
 // Add different classes to even and odd images
 if (index % 2 === 0) {
-img.classList.add("img-fluid", "mx-auto", "d-block", "animated", "wow", "jello", "slow");
+img.classList.add("img-fluid", "mx-auto", "d-block");
 } else {
-img.classList.add("img-fluid", "mx-auto", "d-block", "animated", "wow", "rotateIn", "slower");
+img.classList.add("img-fluid", "mx-auto", "d-block");
 }
 
 card.appendChild(img);
