@@ -16,7 +16,7 @@ const container = document.querySelector(".container-grid");
 
 itemList.forEach((item, index) => {
 const card = document.createElement("div");
-card.classList.add("card", "custom-class", "col-auto" , "col-centered" , "animated" ,  "wow" , "jackInTheBox" , "slow");
+card.classList.add("card", "custom-class", "col-auto" , "col-centered");
 
 const img = document.createElement("img");
 img.src = item.imageUrl;
